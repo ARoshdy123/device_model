@@ -1,16 +1,11 @@
 # device_model
 
-A new Flutter project.
+ Flutter Task retrieves and displays the device model and its operating system version in the center of the screen.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+- `device_information_screen.dart` → UI screen to display device details.
+- `device_info.dart` → Function to retrieve device details using `device_info_plus`.
 
-A few resources to get you started if this is your first Flutter project:
+## Permissions used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  `device_info_plus package` can retrieve the device model and OS version without needing any permissions.
